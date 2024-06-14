@@ -1,21 +1,20 @@
 {
-    "name": "increment-selection",
-    "displayName": "Increment Selection",
-    "description": "Increment selection with multiple cursors",
+    "name": "increment-numbers-selection",
+    "displayName": "Increment numbers Selection",
+    "description": "Increment numbers selection with multiple cursors",
     "icon": "icon.png",
-    "version": "0.2.0",
-    "publisher": "albymor",
+    "version": "0.2.2",
+    "publisher": "pierrecza-vscode",
     "engines": {
         "vscode": "^1.20.0"
     },
     "bugs": {
-        "url": "https://github.com/albymor/Increment-Selection/issues",
-        "email": "alberto.morato90@gmail.com"
+        "url": "https://github.com/curzolapierre/Increment-Selection/issues"
     },
-    "homepage": "https://github.com/albymor/Increment-Selection",
+    "homepage": "https://github.com/curzolapierre/Increment-Selection",
     "repository": {
         "type": "git",
-        "url": "https://github.com/albymor/Increment-Selection.git"
+        "url": "https://github.com/curzolapierre/Increment-Selection.git"
     },
     "categories": [
         "Formatters",
@@ -74,11 +73,11 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^10.12.21",
-        "eslint": "^5.13.0",
-        "typescript": "^3.3.1",
-        "vscode": "^1.1.28",
-        "diff": ">=3.5.0"
+        "@types/mocha": "^2.2.48",
+        "@types/node": "^10.17.60",
+        "diff": "^5.2.0",
+        "eslint": "^5.16.0",
+        "typescript": "^3.9.10",
+        "vscode": "^1.1.37"
     }
 }
